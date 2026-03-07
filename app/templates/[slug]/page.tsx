@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: PageProps) {
   const template = getTemplateBySlug(slug);
   if (!template) return {};
   return {
-    title: `${template.name} — Templates Vitrine`,
+    title: `${template.name} — Gama Studio`,
     description: template.description,
   };
 }

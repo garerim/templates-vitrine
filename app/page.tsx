@@ -10,9 +10,9 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-neutral-900 text-white font-bold text-sm">
-              TV
+              GS
             </div>
-            <span className="text-base font-semibold text-neutral-900">Templates Vitrine</span>
+            <span className="text-base font-semibold text-neutral-900">Gama Studio</span>
           </div>
           <nav className="hidden md:flex items-center gap-6 text-sm text-neutral-600">
             <a href="#templates" className="hover:text-neutral-900 transition-colors">Templates</a>
@@ -143,7 +143,7 @@ export default function HomePage() {
 
       {/* Footer */}
       <footer className="border-t border-neutral-200 bg-white px-6 py-8 text-center text-sm text-neutral-400">
-        <p>© 2025 Templates Vitrine · Tous droits réservés</p>
+        <p>© 2025 Gama Studio · Tous droits réservés</p>
       </footer>
     </div>
   );
