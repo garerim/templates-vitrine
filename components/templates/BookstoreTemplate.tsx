@@ -125,11 +125,12 @@ export function BookstoreTemplate() {
       {/* À propos */}
       <section className="px-6 py-16">
         <div className="mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div
-            className="h-72 flex items-center justify-center text-6xl rounded-sm"
-            style={{ backgroundColor: "#f4e9d5" }}
-          >
-            🏛️
+          <div className="h-72 overflow-hidden rounded-sm">
+            <img
+              src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&q=80&auto=format&fit=crop"
+              alt="Le Coin des Pages — Librairie"
+              style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+            />
           </div>
           <div>
             <p className="mb-3 text-xs tracking-[0.4em] uppercase" style={{ color: "#7d9a6e" }}>Notre histoire</p>

@@ -80,11 +80,12 @@ export function RestaurantTemplate() {
       {/* Chef section */}
       <section className="px-6 py-20">
         <div className="mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-          <div
-            className="h-72 flex items-center justify-center text-6xl rounded-sm"
-            style={{ backgroundColor: "#e8ddd0" }}
-          >
-            👨‍🍳
+          <div className="h-72 overflow-hidden rounded-sm">
+            <img
+              src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=600&q=80&auto=format&fit=crop"
+              alt="Chef Antoine Moreau"
+              style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+            />
           </div>
           <div>
             <p className="mb-3 text-xs tracking-[0.4em] uppercase" style={{ color: "#c9a84c" }}>Le Chef</p>

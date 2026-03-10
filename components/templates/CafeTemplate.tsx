@@ -138,11 +138,12 @@ export function CafeTemplate() {
               S'inscrire à un atelier
             </button>
           </div>
-          <div
-            className="h-64 flex items-center justify-center text-6xl rounded-xl"
-            style={{ backgroundColor: "#fce4d6" }}
-          >
-            🎓
+          <div className="h-64 overflow-hidden rounded-xl">
+            <img
+              src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80&auto=format&fit=crop"
+              alt="Atelier café Numa"
+              style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+            />
           </div>
         </div>
       </section>

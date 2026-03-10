@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Gama Studio — Sites web pour commerces locaux",
   description:
     "Sites vitrines professionnels pour bars, restaurants, salons, librairies et boutiques. Design soigné, mise en ligne en 24h.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

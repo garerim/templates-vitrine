@@ -117,10 +117,14 @@ export function BarTemplate() {
             </div>
           </div>
           <div
-            className="h-80 flex items-center justify-center text-6xl"
-            style={{ backgroundColor: "#160a00", border: "1px solid #2a1a00" }}
+            className="h-80 overflow-hidden"
+            style={{ border: "1px solid #2a1a00" }}
           >
-            🥃
+            <img
+              src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800&q=80&auto=format&fit=crop"
+              alt="Ambiance Le Speakeasy"
+              style={{ width: "100%", height: "100%", objectFit: "cover", display: "block", filter: "brightness(0.85)" }}
+            />
           </div>
         </div>
       </section>

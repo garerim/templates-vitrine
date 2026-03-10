@@ -73,6 +73,18 @@ export const templates: Template[] = [
     tags: ["boutique", "mode", "minimaliste", "luxe"],
     previewBg: "from-neutral-900 to-neutral-100",
   },
+  {
+    slug: "brasserie",
+    name: "Le Zinc",
+    description:
+      "Brasserie parisienne classique et conviviale aux tons vert forêt, crème et laiton. L'authenticité d'une institution de quartier avec une touche de modernité.",
+    category: "restauration",
+    categoryLabel: "Brasserie",
+    palette: ["#2c3e2d", "#f8f3eb", "#c9a51e"],
+    style: "Classique, convivial, brasserie",
+    tags: ["brasserie", "restaurant", "convivial", "classique", "moderne"],
+    previewBg: "from-green-900 to-amber-100",
+  },
 ];
 
 export const categories = [

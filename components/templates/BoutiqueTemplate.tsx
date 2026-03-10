@@ -48,13 +48,14 @@ export function BoutiqueTemplate() {
           </div>
         </div>
         <div
-          className="flex items-center justify-center"
-          style={{ backgroundColor: "#f5f5f5", minHeight: "400px" }}
+          className="overflow-hidden"
+          style={{ minHeight: "400px" }}
         >
-          <div className="text-center">
-            <div className="text-8xl mb-6">🧥</div>
-            <div className="text-xs tracking-[0.4em] uppercase" style={{ color: "#d4af37" }}>SS 2025</div>
-          </div>
+          <img
+            src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800&q=80&auto=format&fit=crop"
+            alt="Maison Vague — Collection SS 2025"
+            style={{ width: "100%", height: "100%", objectFit: "cover", display: "block", minHeight: "400px" }}
+          />
         </div>
       </section>
 
@@ -120,11 +121,12 @@ export function BoutiqueTemplate() {
               ))}
             </div>
           </div>
-          <div
-            className="h-80 flex items-center justify-center text-7xl"
-            style={{ backgroundColor: "#f5f5f5" }}
-          >
-            🏛️
+          <div className="h-80 overflow-hidden">
+            <img
+              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80&auto=format&fit=crop"
+              alt="Maison Vague — Notre boutique"
+              style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+            />
           </div>
         </div>
       </section>

@@ -49,13 +49,14 @@ export function SalonTemplate() {
           </div>
         </div>
         <div
-          className="flex items-center justify-center"
-          style={{ backgroundColor: "#fce7f3", minHeight: "400px" }}
+          className="overflow-hidden"
+          style={{ minHeight: "400px" }}
         >
-          <div className="text-center">
-            <div className="text-8xl mb-4">✂️</div>
-            <p className="text-sm tracking-widest uppercase" style={{ color: "#f9a8d4" }}>Studio Élise</p>
-          </div>
+          <img
+            src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=80&auto=format&fit=crop"
+            alt="Studio Élise — Salon de coiffure"
+            style={{ width: "100%", height: "100%", objectFit: "cover", display: "block", minHeight: "400px" }}
+          />
         </div>
       </section>
 

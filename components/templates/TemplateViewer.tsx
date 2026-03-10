@@ -9,6 +9,7 @@ import { SalonTemplate } from "./SalonTemplate";
 import { BookstoreTemplate } from "./BookstoreTemplate";
 import { CafeTemplate } from "./CafeTemplate";
 import { BoutiqueTemplate } from "./BoutiqueTemplate";
+import { BrasserieTemplate } from "./BrasserieTemplate";
 
 const templateComponents: Record<string, React.ComponentType> = {
   bar: BarTemplate,
@@ -17,6 +18,7 @@ const templateComponents: Record<string, React.ComponentType> = {
   librairie: BookstoreTemplate,
   cafe: CafeTemplate,
   boutique: BoutiqueTemplate,
+  brasserie: BrasserieTemplate,
 };
 
 const categoryColors: Record<string, string> = {
