@@ -12,6 +12,7 @@ export const templates: Template[] = [
     style: "Ambiance prohibition, moody",
     tags: ["bar", "cocktails", "sombre", "vintage"],
     previewBg: "from-amber-950 to-stone-900",
+    previewImage: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=600&q=80&auto=format&fit=crop",
   },
   {
     slug: "restaurant",
@@ -24,6 +25,7 @@ export const templates: Template[] = [
     style: "Élégant, gastronomique",
     tags: ["restaurant", "gastronomique", "élégant", "luxe"],
     previewBg: "from-red-950 to-amber-100",
+    previewImage: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80&auto=format&fit=crop",
   },
   {
     slug: "salon",
@@ -36,6 +38,7 @@ export const templates: Template[] = [
     style: "Épuré, moderne",
     tags: ["salon", "coiffure", "rose", "moderne"],
     previewBg: "from-pink-100 to-rose-50",
+    previewImage: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600&q=80&auto=format&fit=crop",
   },
   {
     slug: "librairie",
@@ -48,6 +51,7 @@ export const templates: Template[] = [
     style: "Chaleureux, vintage",
     tags: ["librairie", "livres", "vintage", "chaleureux"],
     previewBg: "from-amber-800 to-green-800",
+    previewImage: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=600&q=80&auto=format&fit=crop",
   },
   {
     slug: "cafe",
@@ -60,6 +64,7 @@ export const templates: Template[] = [
     style: "Cosy, artisanal",
     tags: ["café", "artisanal", "terracotta", "cosy"],
     previewBg: "from-orange-700 to-amber-100",
+    previewImage: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=600&q=80&auto=format&fit=crop",
   },
   {
     slug: "boutique",
@@ -72,6 +77,7 @@ export const templates: Template[] = [
     style: "Minimaliste, fashion",
     tags: ["boutique", "mode", "minimaliste", "luxe"],
     previewBg: "from-neutral-900 to-neutral-100",
+    previewImage: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&q=80&auto=format&fit=crop",
   },
   {
     slug: "brasserie",
@@ -84,6 +90,7 @@ export const templates: Template[] = [
     style: "Classique, convivial, brasserie",
     tags: ["brasserie", "restaurant", "convivial", "classique", "moderne"],
     previewBg: "from-green-900 to-amber-100",
+    previewImage: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80&auto=format&fit=crop",
   },
 ];
 

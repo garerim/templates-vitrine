@@ -22,9 +22,14 @@ export function RestaurantTemplate() {
       {/* Hero */}
       <section
         className="relative flex items-center justify-center px-6 py-32 text-center"
-        style={{ background: "linear-gradient(180deg, #faf7f2 0%, #f0e8de 100%)" }}
+        style={{
+          backgroundImage: "url(https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&q=80&auto=format&fit=crop)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
       >
-        <div>
+        <div className="absolute inset-0" style={{ background: "rgba(250,247,242,0.82)" }} />
+        <div className="relative z-10">
           <p className="mb-4 text-xs tracking-[0.5em] uppercase" style={{ color: "#c9a84c" }}>
             Restaurant Gastronomique · Paris
           </p>

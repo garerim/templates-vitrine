@@ -10,4 +10,5 @@ export interface Template {
   style: string;
   tags: string[];
   previewBg: string;
+  previewImage: string;
 }

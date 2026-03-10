@@ -23,8 +23,15 @@ export function BarTemplate() {
       {/* Hero */}
       <section
         className="relative flex flex-col items-center justify-center text-center px-6"
-        style={{ minHeight: "85vh", background: "radial-gradient(ellipse at center, #2a1200 0%, #0d0600 70%)" }}
+        style={{
+          minHeight: "85vh",
+          backgroundImage: "url(https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1400&q=80&auto=format&fit=crop)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
       >
+        {/* Dark overlay */}
+        <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse at center, rgba(42,18,0,0.84) 0%, rgba(13,6,0,0.94) 70%)" }} />
         {/* Decorative lines */}
         <div className="absolute inset-0 overflow-hidden opacity-10">
           <div className="absolute top-1/4 left-0 w-full h-px" style={{ backgroundColor: "#d4af37" }} />

@@ -25,10 +25,15 @@ export function BookstoreTemplate() {
 
       {/* Hero */}
       <section
-        className="px-6 py-24 text-center"
-        style={{ background: "linear-gradient(180deg, #f4e9d5 0%, #fdf6ed 100%)" }}
+        className="relative px-6 py-24 text-center"
+        style={{
+          backgroundImage: "url(https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1400&q=80&auto=format&fit=crop)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
       >
-        <div className="mx-auto max-w-3xl">
+        <div className="absolute inset-0" style={{ background: "rgba(244,233,213,0.84)" }} />
+        <div className="relative z-10 mx-auto max-w-3xl">
           <p className="mb-4 text-xs tracking-[0.4em] uppercase" style={{ color: "#7d9a6e" }}>
             Librairie indépendante depuis 1987
           </p>

@@ -25,10 +25,15 @@ export function CafeTemplate() {
 
       {/* Hero */}
       <section
-        className="px-6 py-24 text-center"
-        style={{ background: "linear-gradient(180deg, #fce4d6 0%, #faf5ee 100%)" }}
+        className="relative px-6 py-24 text-center"
+        style={{
+          backgroundImage: "url(https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1400&q=80&auto=format&fit=crop)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
       >
-        <div className="mx-auto max-w-2xl">
+        <div className="absolute inset-0" style={{ background: "rgba(250,245,238,0.84)" }} />
+        <div className="relative z-10 mx-auto max-w-2xl">
           <p className="mb-4 text-xs tracking-[0.5em] uppercase" style={{ color: "#8B6914" }}>
             Spécialité · Brûlerie artisanale
           </p>

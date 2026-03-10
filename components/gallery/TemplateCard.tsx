@@ -18,9 +18,16 @@ export function TemplateCard({ template }: TemplateCardProps) {
     <Link href={`/templates/${template.slug}`} className="group block">
       <div className="relative overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
         {/* Preview area */}
-        <div
-          className={`relative h-52 bg-gradient-to-br ${template.previewBg} overflow-hidden`}
-        >
+        <div className="relative h-52 overflow-hidden">
+          {/* Photo de fond */}
+          <img
+            src={template.previewImage}
+            alt={template.name}
+            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+          {/* Gradient overlay pour lisibilité */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-black/20" />
+
           {/* Color palette dots */}
           <div className="absolute bottom-4 left-4 flex gap-2">
             {template.palette.map((color, i) => (
